@@ -1,11 +1,32 @@
+## dev settings
+web-test-runner.config.dev.json
+
+## editors
+/.idea
+/.vscode
+
+## system files
+.DS_Store
+
+## npm
 /node_modules/
-/lib/
-/test/
-custom-elements.json
-# top level source
-my-element.js
-my-element.js.map
-my-element.d.ts
-my-element.d.ts.map
-# only generated for size check
-my-element.bundled.js
+/npm-debug.log
+/package-lock.json
+/yarn-error.log
+/yarn.lock
+
+## testing
+/coverage/
+
+## temp folders
+/.tmp/
+
+# build
+/_site/
+/dist/
+/dist/out-tsc/
+
+# generator files
+/src/__generated__/
+out-tsc
+nohup.out

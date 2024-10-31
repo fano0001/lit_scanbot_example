@@ -1,0 +1,22 @@
+{
+    "presets": [
+        "@babel/typescript",
+        [
+            "@babel/preset-env",
+            {
+                "modules": false,
+                "targets": {
+                    "chrome": "58",
+                    "ie": "11",
+                    "safari": "10",
+                    "node": "current",
+                    "esmodules": true
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        "babel-plugin-transform-css-import-require-to-string",
+        "@babel/plugin-transform-runtime"
+    ]
+}
