@@ -21,9 +21,6 @@ const conf = {
         allowedHosts: 'all',
         historyApiFallback: {
             index: '/'
-        },
-        headers: {
-            'X-AXA-Authentication': 'dev-server-auth-header'
         }
     },
     module: {

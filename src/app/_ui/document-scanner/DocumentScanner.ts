@@ -4,7 +4,7 @@ import ScanbotSDK from 'scanbot-web-sdk'
 import elementStyles from './DocumentScanner.scss'
 
 
-@customElement('myaxa-document-scanner')
+@customElement('document-scanner')
 export class DocumentScanner extends LitElement {
     static override get styles(): CSSResult {
         return css`
