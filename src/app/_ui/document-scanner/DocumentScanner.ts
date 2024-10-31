@@ -15,11 +15,9 @@ export class DocumentScanner extends LitElement {
     @query('#document-scanner-container')
     documentScannerContainer?: HTMLElement
 
-    scanner?: HTMLElement
-
-
+    //TODO
     // to not use the ShadowRoot feature from Lit, enable the following method
-    // if enabled the error of ScanBot will appear
+    // if the ShadowRoot is enabled the error  will appear
 
     // override createRenderRoot() {
     //     return this
