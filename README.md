@@ -1,4 +1,5 @@
 # Start the Project
+- install yarn globaly `npm i yarn -g` 
 - use `yarn install` to install the dependencies
 - use `yarn start` to start the environment. The browser will automatically display the page
 
